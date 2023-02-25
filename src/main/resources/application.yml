@@ -1,0 +1,9 @@
+server:
+  port: 8085
+
+social-media-app:
+  uri: http://localhost:8080/api
+
+spring:
+  profiles:
+    active: dev

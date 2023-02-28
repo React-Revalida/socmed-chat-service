@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.ssglobal.revalida.codes.model.Message;
 import org.springframework.messaging.handler.annotation.SendTo;
 @Controller
-@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
+@CrossOrigin(origins = "${social-media-app.origin}", allowCredentials = "true")
 public class ChatController {
 
     @Autowired
